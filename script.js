@@ -1,14 +1,15 @@
 //your code here
 var btn=document.querySelector('button');
-function Todo(){
-	var todoitem=document.querySelector('input').value;
+var todoitem=document.querySelector('input').value;
 	
 	var ol=document.querySelector('ol');
-	if(todoitem){
+function Todo(){
+	
+	if(todoitem.value){
 		var li=document.createElement('li');
-		li.textContent=todoitem;
+		li.textContent=todoitem.value;
 		ol.appendChild(li);
-		todoitem="";
+		todoitem.value="";
 		
 	}
 }
