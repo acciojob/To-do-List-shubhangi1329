@@ -1,6 +1,6 @@
 //your code here
 var btn=document.querySelector('button');
-var todoitem=document.querySelector('input').value;
+var todoitem=document.querySelector('input');
 	
 	var ol=document.querySelector('ol');
 function Todo(){
